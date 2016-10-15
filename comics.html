@@ -2,17 +2,16 @@
 <html lang="en">
 <head>
     <title>comics – Shirley Wong</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
     <style>
         #comics{
             color: #00bcb0;
@@ -20,7 +19,7 @@
         }
     </style>
 </head>
-
+<body>
 <header>
     <nav class="navbar navbar-default">
         <div class="container">
@@ -30,20 +29,78 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a id="navBarTitle" class="navbar-brand" href="#">shirley wong</a>
+                <a id="navBarTitle" class="navbar-brand" href="gallery.html">shirley wong</a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a id="about" href="about.html">about</a></li>
-                    <li><a id="gallery" href="">gallery</a></li>
-                    <li><a id="comics" href="comics.html">comics</a></li>
-                    <li><a id="loveme" href="loveme.html">love me</a></li>
+                    <li><a id="gallery" href="gallery.html">gallery</a></li>
+                    <li><a id="comics" href="">comics</a></li>
+                    <li><a id="loveme" href="love me.html">love me</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 </header>
-<body>
+
+
+<div class="container bg-1 text-center">
+    <div class="comiccontainer row">
+        <div class="col-md-4 col-lg-4">
+            <h1>Eurotrip </h1>
+            <div class="text-center">
+                <p class="comicparagraph">
+                    A collection of comics from my trip to Europe in 2015.
+                </p>
+                <div class="row">
+                    <button type="button" class="btn btn-primary">See More</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-8 col-lg-8">
+            <img src="images/Eurotrip comic/page 1.jpg" class="comicthumbnails">
+        </div>
+    </div>
+    <div class="comiccontainer row">
+        <div class="comicpanel1 col-md-4 col-lg-4">
+            <h1>Sn&pchat Story</h1>
+            <div class="text-center">
+                <p class="comicparagraph">
+                    A story about phone culture, long distance relationships, and moving on.
+                    This is my major comic project, hoping to be about 60 pages. The idea for this story started in fall 2015, and i have been working on it slowly but steadily since.
+                </p>
+                <div class="comiccontainer row">
+                    <button type="button" class="btn btn-primary">See More</button>
+                </div>
+
+            </div>
+        </div>
+        <div class="comicpanel1 col-md-8 col-lg-8">
+            <img src="images/sn&pchat story comic/cover.jpg" class="comicthumbnails">
+        </div>
+    </div>
+    <div class="row">
+        <div class="comicpanel1 col-md-4 col-lg-4">
+            <h1>
+                Misc. Comics
+            </h1>
+            <div class="text-center">
+                <p class="comicparagraph">
+                    My hourly comics from 2015.
+                </p>
+                <div class="row">
+                    <button type="button" class="btn btn-primary">See More</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-8 col-lg-8">
+            <img src="images/Misc. Comics/tumblr_nj4rk4LYJk1t3it3so1_1280.jpg" class="comicthumbnails">
+        </div>
+    </div>
+</div>
+
+
 
 </body>
+
 </html>

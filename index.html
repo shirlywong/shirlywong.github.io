@@ -4,19 +4,12 @@
     <title>gallery – Shirley Wong</title>
 
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!--<link rel="stylesheet" type="text/css" href="css/bootstrap.css">   &lt;!&ndash;you fucker &ndash;&gt;-->
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
 
     <style>
         #gallery{
@@ -25,10 +18,10 @@
         }
     </style>
 </head>
-
+<body>
 <header>
     <nav class="navbar navbar-default">
-        <div class="container">
+        <div id="topnavbar" class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                     <span class="icon-bar"></span>
@@ -42,33 +35,79 @@
                     <li><a id="about" href="about.html">about</a></li>
                     <li><a id="gallery" href="">gallery</a></li>
                     <li><a id="comics" href="comics.html">comics</a></li>
-                    <li><a id="loveme" href="loveme.html">love me</a></li>
+                    <li><a id="loveme" href="love me.html">love me</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 </header>
 
-<body>
-<div id="masonry-grid" class="grid">
-    <div class="grid-sizer"></div>
-    <div class="gutter-sizer"></div>
 
-    <div class="grid-item">
-        <img src="images/gallery/image01.jpg" width="auto" height="auto" />
+<div id="content" class="container grid clearfix">
+    <div class="grid-sizer"></div>
+    <!--<div class="gutter-sizer"></div>-->
+    <div class="item">
+        <img src="images/gallery/image05.jpg">
     </div>
-    <div class="grid-item">
-        <img src="images/gallery/image02.jpg" width="auto" height="auto" >
+    <div class="item">
+        <img src="images/gallery/image01.jpg">
     </div>
-    <div class="grid-item">
-        <img src="images/gallery/image03.jpg" width="auto" height="auto" >
+    <div class="item">
+        <img src="images/gallery/image02.jpg">
     </div>
-    <div class="grid-item">
-        <img src="images/gallery/image04.jpg" width="auto" height="auto" >
+    <div class="item">
+        <img src="images/gallery/image03.jpg">
     </div>
-    <div class="grid-item">
-        <img src="images/gallery/image05.jpg" width="auto" height="auto" >
+    <div class="item">
+        <img src="images/gallery/image04.jpg">
     </div>
+    <div class="item">
+        <img src="images/gallery/Originals/a fading memory (full).jpg">
+    </div>
+    <div class="item w2">
+        <img src="images/gallery/Originals/a fading memory w2.jpg">
+    </div>
+    <div class="item">
+        <img src="images/gallery/Originals/afraid of everyone.jpg">
+    </div>
+    <div class="item">
+        <img src="images/gallery/Originals/avery.jpg">
+    </div>
+    <div class="item w2">
+        <img src="images/gallery/Originals/close to you_w2.jpg">
+    </div>
+    <div class="item">
+        <img src="images/gallery/Originals/if only time could throw backwards.jpg">
+    </div>
+    <div class="item">
+        <img src="images/gallery/Originals/sleepless.jpg">
+    </div>
+    <div class="item">
+        <img src="images/gallery/Originals/you allure me.jpg">
+    </div>
+    <div class="item w2">
+        <img src="images/gallery/Fanart/avatar w2.jpg">
+    </div>
+    <div class="item">
+        <img src="images/gallery/Fanart/naruto.jpg">
+    </div>
+    <div class="item w2">
+        <img src="images/gallery/Fanart/noragami w2.jpg">
+    </div>
+    <div class="item">
+        <img src="images/gallery/Fanart/schierke.jpg">
+    </div>
+    <div class="item">
+        <img src="images/gallery/Fanart/teen titan 12 x 18.jpg">
+    </div>
+
 </div>
-</body>
-</html>
+
+<!-- Placed at the bottom so it loads faster -->
+<script src="js/jquery-3.1.1.js"></script>
+<!--<script src="js/modernizr-2.5.3.min.js"></script>-->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="js/masonry.pkgd.min.js"></script>
+<script src="js/main.js"></script>
+
+</body></html>

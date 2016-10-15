@@ -1,51 +1,131 @@
-@import 'https://fonts.googleapis.com/css?family=Open+Sans:400i';
-* { box-sizing: border-box; }
-
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+* { box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
 /* force scrollbar */
 html { overflow-y: scroll; }
 
+
+
 body {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 100;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
     font-style: normal;
+    margin: 0; font-size: 1em; line-height: 1.4;
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    padding-bottom: 5.5%;
 }
 
 p {
+    min-width: 300px;
     text-align: justify;
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 10%;
+    font-weight: bold;
+    font-size: larger;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
-/* ––––– .navbar ––––– */
-#navBarTitle {
-    font-size: 40px;
-    font-weight: 100 !important;
-    font-style: normal;
+#abouth1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
-.navbar {
-    font-weight: 100;
-    font-style: normal;
-    padding-top: 35px;
-    padding-bottom: 80px;
-    border: 10px;
-    border-radius: 10px;
-    margin-bottom: 10px;
-    font-size: 14px;
-    letter-spacing: 5px;
-    background-color: white;
+#aboutparagraph  {
+    font-size: 13px;
 }
 
-.navbar-nav li a:hover {
-    color: #00bcb0 !important;
+#aboutpic {
+    width: 200px;
+    height:auto;
+    margin-bottom: 3%;
 }
 
-/* clearfix */
+#aboutcontainer {
+   min-height: 600px;
+}
+
+.comicthumbnails {
+    height: auto;
+    width: 200px;
+    padding: 5% 0;
+    float: none;
+}
+
+.comicparagraph {
+
+}
+.comicpanel1 {
+
+}
+
+    /* divider for comics */
+.comiccontainer:not(:last-child) {
+    border-bottom: 1px solid #ccc;
+}
+
+/* –––– Masonry grid items ––––– */
+
+/* clear fix */
 .grid:after {
     content: '';
     display: block;
     clear: both;
 }
 
+#content {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.item {
+    display: block;
+    float: left;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.item img {
+    float: left;
+    width: 300px;
+    height: auto;
+}
+
+/* ––––– .navbar ––––– */
+
+#navBarTitle {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 100 !important;
+    font-style: normal;
+
+}
+
+
+.navbar {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 4%;
+    padding-bottom: 7.5%;
+    border: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    letter-spacing: 5px;
+    background-color: white !important;
+}
+
+.navbar-nav li a:hover {
+    color: #00bcb0 !important;
+}
 
