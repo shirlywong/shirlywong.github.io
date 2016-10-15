@@ -1,0 +1,51 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:400i';
+* { box-sizing: border-box; }
+
+/* force scrollbar */
+html { overflow-y: scroll; }
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+p {
+    text-align: justify;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+}
+
+/* ––––– .navbar ––––– */
+#navBarTitle {
+    font-size: 40px;
+    font-weight: 100 !important;
+    font-style: normal;
+}
+
+.navbar {
+    font-weight: 100;
+    font-style: normal;
+    padding-top: 35px;
+    padding-bottom: 80px;
+    border: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    letter-spacing: 5px;
+    background-color: white;
+}
+
+.navbar-nav li a:hover {
+    color: #00bcb0 !important;
+}
+
+/* clearfix */
+.grid:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
