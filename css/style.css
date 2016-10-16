@@ -81,6 +81,7 @@ p {
     float: none;
 }
 
+
 .comicimage img {
     max-width: 650px;
     width: 70%;
@@ -95,6 +96,10 @@ p {
 }
 .comic-content {
     margin: 0 3%;
+}
+
+.maincontainer {
+    padding-top: 120px;
 }
 
 

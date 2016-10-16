@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4eb1b464-a532-47a0-b313-9dd7ee83babe" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.html" afterPath="$PROJECT_DIR$/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comics.html" afterPath="$PROJECT_DIR$/comics.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comics/eurotripgallery.html" afterPath="$PROJECT_DIR$/comics/eurotripgallery.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comics/misccomicsgallery.html" afterPath="$PROJECT_DIR$/comics/misccomicsgallery.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comics/sn&amp;pchatstorygallery.html" afterPath="$PROJECT_DIR$/comics/sn&amp;pchatstorygallery.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/love me.html" afterPath="$PROJECT_DIR$/love me.html" />
     </list>
     <ignored path="ShirleyWongWebsite.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -85,7 +76,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sn&amp;pchatstorygallery.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sn&amp;pchatstorygallery.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/comics/sn&amp;pchatstorygallery.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
@@ -97,11 +88,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+            <state relative-caret-position="294">
+              <caret line="140" column="23" selection-start-line="140" selection-start-column="23" selection-end-line="140" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -149,11 +140,11 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/love me.html" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/comics.html" />
         <option value="$PROJECT_DIR$/comics/eurotripgallery.html" />
         <option value="$PROJECT_DIR$/comics/misccomicsgallery.html" />
         <option value="$PROJECT_DIR$/comics/sn&amp;pchatstorygallery.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -705,12 +696,12 @@
       <updated>1476214779076</updated>
       <workItem from="1476214814458" duration="2563000" />
       <workItem from="1476370462611" duration="5856000" />
-      <workItem from="1476503846939" duration="15466000" />
+      <workItem from="1476503846939" duration="15551000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23885000" />
+    <option name="totallyTimeSpent" value="23970000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="82" y="26" width="1262" height="877" extended-state="0" />
@@ -830,14 +821,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/comics.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -877,6 +860,14 @@
           <folding>
             <element signature="n#style#0;n#div#0;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="140" column="23" selection-start-line="140" selection-start-column="23" selection-end-line="140" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
