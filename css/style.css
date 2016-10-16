@@ -30,6 +30,28 @@ p {
     font-size: larger;
     font-family: 'Josefin Sans', sans-serif;
 }
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+.btn {
+    /*padding: 14px 24px;*/
+    border: 0 none;
+    font-weight: 700;
+    font-size: large;
+    letter-spacing: 3px;
+    text-transform: lowercase;
+}
+
+/*Comic book button colour customization*/
+.btn-primary {
+    background: #00bcb0;
+    color: #ffffff;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #04D6C9;
+}
 
 #abouth1 {
     text-align: center;
@@ -66,10 +88,6 @@ p {
 
 }
 
-    /* divider for comics */
-.comiccontainer:not(:last-child) {
-    border-bottom: 1px solid #ccc;
-}
 
 /* –––– Masonry grid items ––––– */
 
