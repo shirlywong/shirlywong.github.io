@@ -2,8 +2,10 @@
 <html lang="en">
 <head>
     <title>comics – Shirley Wong</title>
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!--<link rel="stylesheet" type="text/css" href="css/bootstrap.css">-->
+
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!--<link rel="stylesheet"  src="css/bootstrap.css">-->
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
@@ -21,7 +23,7 @@
 </head>
 <body>
 <header>
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -44,11 +46,11 @@
 </header>
 
 
-<div class="container bg-1 text-center">
-    <div class="comiccontainer row">
-        <div class="col-md-4 col-lg-4">
+<div class="maincontainer container">
+    <div class="block-center row">
+        <div class="col-md-6 col-lg-6 text-center">
             <h1>Eurotrip </h1>
-            <div class="text-center">
+            <div class="">
                 <h4 class="comicparagraph">
                     A collection of comics from my trip to Europe in 2015.
                 </h4>
@@ -57,15 +59,15 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-8 col-lg-8">
-            <img src="images/Eurotrip comic/page 1.jpg" class="comicthumbnails">
+        <div class="col-md-6 col-lg-6">
+            <img src="images/Eurotrip comic/page 1.jpg" class="comicthumbnails center-block">
         </div>
     </div>
     <hr class="featurette-divider">
     <div class="comiccontainer row">
-        <div class="comicpanel1 col-md-4 col-lg-4">
+        <div class="comicpanel1 col-md-6 col-lg-6 text-center">
             <h1>Sn&pchat Story</h1>
-            <div class="text-center">
+            <div class="">
                 <h4 class="comicparagraph">
                     A story about phone culture, long distance relationships, and moving on.
                     This is my major comic project, hoping to be about 60 pages. The idea for this story started in fall 2015, and i have been working on it slowly but steadily since.
@@ -75,17 +77,17 @@
                 </div>
             </div>
         </div>
-        <div class="comicpanel1 col-md-8 col-lg-8">
-            <img src="images/sn&pchat story comic/cover.jpg" class="comicthumbnails">
+        <div class="comicpanel1 col-md-6 col-lg-6">
+            <img src="images/sn&pchat story comic/cover.jpg" class="comicthumbnails center-block">
         </div>
     </div>
     <hr class="featurette-divider">
     <div class="row">
-        <div class="comicpanel1 col-md-4 col-lg-4">
+        <div class="comicpanel1 text-center col-md-6 col-lg-6">
             <h1>
                 Misc. Comics
             </h1>
-            <div class="text-center">
+            <div class="">
                 <h4 class="comicparagraph">
                     My hourly comics from 2015.
                 </h4>
@@ -94,13 +96,16 @@
                 <a href="comics/misccomicsgallery.html" class="btn btn-primary" role="button">See More</a>
             </div>
         </div>
-        <div class="col-md-8 col-lg-8">
-            <img src="images/Misc. Comics/tumblr_nj4rk4LYJk1t3it3so1_1280.jpg" class="comicthumbnails">
+        <div class="col-md-6 col-lg-6">
+            <img src="images/Misc. Comics/tumblr_nj4rk4LYJk1t3it3so1_1280.jpg" class="comicthumbnails center-block">
         </div>
     </div>
 </div>
 
 
+<!-- Placed at the bottom so it loads faster -->
+<script src="js/jquery-3.1.1.js"></script>
+<script src="js/main.js"></script>
 
 </body>
 

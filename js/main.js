@@ -15,4 +15,3 @@ $content.imagesLoaded(function() {
          }
    });
 });
-

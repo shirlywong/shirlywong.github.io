@@ -76,7 +76,7 @@ p {
 
 .comicthumbnails {
     height: auto;
-    width: 200px;
+    width: 290px;
     padding: 5% 0;
     float: none;
 }
@@ -142,11 +142,6 @@ p {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
     font-style: normal;
-    padding-top: 4%;
-    padding-bottom: 7.5%;
-    border: 10px;
-    border-radius: 10px;
-    margin-bottom: 10px;
     font-size: 16px;
     letter-spacing: 5px;
     background-color: white !important;
