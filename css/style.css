@@ -81,11 +81,20 @@ p {
     float: none;
 }
 
+.comicimage img {
+    max-width: 650px;
+    width: 70%;
+    height:auto;
+}
+
 .comicparagraph {
 
 }
 .comicpanel1 {
 
+}
+.comic-content {
+    margin: 0 3%;
 }
 
 
