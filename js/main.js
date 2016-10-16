@@ -7,8 +7,9 @@ $content.imagesLoaded(function() {
         itemSelector: '.item',
         gutter: 10,
         isFitWidth: true, // option in Masonry to determine largest column count possible for viewport
+        isAnimated: true,
         animationOptions: {
-        duration: 1100,
+                duration: 750,
             easing: 'linear',
             queue: false
          }
