@@ -88,18 +88,16 @@ p {
     height:auto;
 }
 
-.comicparagraph {
 
-}
-.comicpanel1 {
-
-}
 .comic-content {
     margin: 0 3%;
 }
 
 .maincontainer {
     padding-top: 120px;
+    max-width: 1240px;
+    text-align: center;
+    margin: 0 auto;
 }
 
 
@@ -114,9 +112,9 @@ p {
 
 #content {
     box-sizing: border-box;
-    width: 100%;
     margin: 0 auto;
     padding: 0;
+    
 }
 
 .item {
