@@ -61,7 +61,8 @@ p {
 }
 
 #aboutparagraph  {
-    font-size: 13px;
+    font-size: 14px;
+    max-width: 750px;
 }
 
 #aboutpic {
