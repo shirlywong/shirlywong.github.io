@@ -1,17 +1,38 @@
-var $content = $('#content');
-// initiliatize Masonry after all images hae loaded
-$content.imagesLoaded(function() {
-   $content.masonry({
-       columnWidth: 300, //change to 310 when using W2 widths.
-        truePercent: false,
-        itemSelector: '.item',
-        gutter: 10,
-        isFitWidth: true, // option in Masonry to determine largest column count possible for viewport
-        isAnimated: true,
-        animationOptions: {
-                duration: 750,
-            easing: 'linear',
-            queue: false
-         }
-   });
+$( function() {
+  var $content = $('#content');
+  // hide initial items
+  var $initialItems = $content.find('.item').hide();
+  
+  var $content = $content.masonry({
+      // do not select initial items
+      itemSelector: 'none',
+      columnWidth: 300,
+      gutter: 10,
+      isFitWidth: true
+    })
+    // set option
+    .masonry( 'option', { itemSelector: '.item' } )
+    .masonryImagesReveal( $initialItems );
 });
+
+// reveals items iteratively
+// after each item has loaded its images
+$.fn.masonryImagesReveal = function( $items ) {
+  var msnry = this.data('masonry');
+  var itemSelector = msnry.options.itemSelector;
+  // hide by default
+  $items.hide();
+  // append to content
+  this.append( $items );
+  $items.imagesLoaded().progress( function( imgLoad, image ) {
+    // get item
+    // image is imagesLoaded class, not <img>, <img> is image.img
+    var $item = $( image.img ).parents( itemSelector );
+    // un-hide item
+    $item.show();
+    // masonry does its thing
+    msnry.appended( $item );
+  });
+  
+  return this;
+};
