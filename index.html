@@ -8,7 +8,10 @@
 
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <link rel="stylesheet" type="text/css" href="bower_components/ekko-lightbox/dist/ekko-lightbox.min.css">
 
     <style>
         #gallery{
@@ -44,69 +47,78 @@
 <div class="maincontainer" >
     <div id="content" class="container grid clearfix" data-masonry-options='{ "isFitWidth": true }'>
         <div class="grid-sizer"></div>
-        <div class="item">
+        <a class="item" href="images/gallery/image05.jpg" data-toggle="lightbox" data-gallery="gallery">
             <img src="images/gallery/image05.jpg">
-        </div>
-        <div class="item">
+        </a>
+        <a class="item" href="images/gallery/image01.jpg" data-toggle="lightbox" data-gallery="gallery">
             <img src="images/gallery/image01.jpg">
-        </div>
-        <div class="item">
+        </a>
+        <a class="item" href="images/gallery/image02.jpg" data-toggle="lightbox" data-gallery="gallery">
             <img src="images/gallery/image02.jpg">
-        </div>
-        <div class="item">
+        </a>
+        <a class="item" href="images/gallery/image03.jpg" data-toggle="lightbox" data-gallery="gallery">
             <img src="images/gallery/image03.jpg">
-        </div>
-        <div class="item">
+        </a>
+        <a class="item" href="images/gallery/image04.jpg" data-toggle="lightbox" data-gallery="gallery">
             <img src="images/gallery/image04.jpg">
-        </div>
-        <div class="item">
+        </a>
+        <a class="item" href="images/gallery/Originals/a fading memory (full).jpg" data-toggle="lightbox" data-gallery="gallery">
             <img src="images/gallery/Originals/a fading memory (full).jpg">
-        </div>
-        <div class="item w2">
+        </a>
+        <a class="item" href="images/gallery/Originals/a fading memory w2.jpg" data-toggle="lightbox" data-gallery="gallery">
             <img src="images/gallery/Originals/a fading memory w2.jpg">
-        </div>
-        <div class="item">
+        </a>
+        <a class="item" href="images/gallery/Originals/afraid of everyone.jpg" data-toggle="lightbox" data-gallery="gallery">
             <img src="images/gallery/Originals/afraid of everyone.jpg">
-        </div>
-        <div class="item">
+        </a>
+        <a class="item" href="images/gallery/Originals/avery.jpg" data-toggle="lightbox" data-gallery="gallery">
             <img src="images/gallery/Originals/avery.jpg">
-        </div>
-        <div class="item w2">
+        </a>
+        <a class="item" href="images/gallery/Originals/close to you_w2.jpg" data-toggle="lightbox" data-gallery="gallery">
             <img src="images/gallery/Originals/close to you_w2.jpg">
-        </div>
-        <div class="item">
+        </a>
+        <a class="item" href="images/gallery/Originals/if only time could throw backwards.jpg" data-toggle="lightbox" data-gallery="gallery">
             <img src="images/gallery/Originals/if only time could throw backwards.jpg">
-        </div>
-        <div class="item">
+        </a>
+        <a class="item" href="images/gallery/Originals/sleepless.jpg" data-toggle="lightbox" data-gallery="gallery">
             <img src="images/gallery/Originals/sleepless.jpg">
-        </div>
-        <div class="item">
+        </a>
+        <a class="item" href="images/gallery/Originals/you allure me.jpg" data-toggle="lightbox" data-gallery="gallery">
             <img src="images/gallery/Originals/you allure me.jpg">
-        </div>
-        <div class="item w2">
+        </a>
+        <a class="item" href="images/gallery/Fanart/avatar.jpg" data-toggle="lightbox" data-gallery="gallery">
             <img src="images/gallery/Fanart/avatar.jpg">
-        </div>
-        <div class="item">
+        </a>
+        <a class="item" href="images/gallery/Fanart/naruto.jpg" data-toggle="lightbox" data-gallery="gallery">
             <img src="images/gallery/Fanart/naruto.jpg">
-        </div>
-        <div class="item w2">
+        </a>
+        <a class="item" href="images/gallery/Fanart/noragami.jpg" data-toggle="lightbox" data-gallery="gallery">
             <img src="images/gallery/Fanart/noragami.jpg">
-        </div>
-        <div class="item">
+        </a>
+        <a class="item" href="images/gallery/Fanart/schierke.jpg" data-toggle="lightbox" data-gallery="gallery">
             <img src="images/gallery/Fanart/schierke.jpg">
-        </div>
-        <div class="item">
+        </a>
+        <a class="item" href="images/gallery/Fanart/teen titan 12 x 18.jpg" data-toggle="lightbox" data-gallery="gallery"   >
             <img src="images/gallery/Fanart/teen titan 12 x 18.jpg">
-        </div>
+        </a>
 
     </div>
-    </div>
+</div>
 
 <!-- Placed at the bottom so it loads faster -->
-<script src="js/jquery-3.1.1.js"></script>
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/jquery/dist/core.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="js/masonry.pkgd.min.js"></script>
 <script src="js/imagesloaded.pkgd.min.js"></script>
 <script src="js/main.js"></script>
+<script src="bower_components/ekko-lightbox/dist/ekko-lightbox.min.js"></script>
+
+<script>
+    $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+        event.preventDefault();
+        $(this).ekkoLightbox();
+    });
+</script>
 
 </body></html>
